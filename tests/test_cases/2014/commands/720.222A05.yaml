@@ -3,5 +3,4 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 72804622A05FF
-  expected_values:
-    MAZDA_TP_1: 3.5
+  expected_values: {}

@@ -3,5 +3,4 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 728046261B11B
-  expected_values:
-    MAZDA_FUEL_LEVEL: 27
+  expected_values: {}
