@@ -1,4 +1,44 @@
 { "commands": [
-
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A05"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_TP_1", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 1 pressure"}
+  ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A06"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_TP_2", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 2 pressure"}
+  ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A07"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_TP_3", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 3 pressure"}
+  ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "2A08"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_TP_4", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Wheel 4 pressure"}
+  ]},
+{ "hdr": "720", "dbg": true, "cmd": {"22": "61B1"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 55,  "unit": "liters" }, "name": "Fuel level"},
+    {"id": "MAZDA3_FLV",        "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0301"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_MAP", "path": "Engine", "fmt": { "len": 16, "max": 4, "div": 1000, "unit": "volts" }, "name": "MAP voltage", "description": "A properly functioning sensor should read around 1 to 1.5 volts at idle."}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0307"}, "freq": 0.25,
+  "signals": [
+    {"id": "MAZDA3_FP_LD", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "Fuel pump load"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0415"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_EOP", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "Engine oil pressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0522"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temp"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1310"}, "freq": 1,
+  "signals": [
+    {"id": "MAZDA3_EOT", "path": "Engine", "fmt": { "len": 16, "max": 615.35, "min": -40, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
+  ]}
 ]
 }
