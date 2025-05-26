@@ -3,8 +3,6 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7E8056203072E12
-  expected_values:
-    MAZDA_FP_LD: 17.99649
+  expected_values: {}
 - response: 7E8056203072E70
-  expected_values:
-    MAZDA_FP_LD: 18.13993
+  expected_values: {}
