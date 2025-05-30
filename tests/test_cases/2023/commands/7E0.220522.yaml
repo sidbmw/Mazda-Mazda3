@@ -1,0 +1,20 @@
+command_id: 7E0.220522
+test_cases:
+- response: '7E80462052259'
+  expected_values:
+    MAZDA_FUEL_T: 49
+- response: 7E8046205225A
+  expected_values:
+    MAZDA_FUEL_T: 50
+- response: 7E8046205225B
+  expected_values:
+    MAZDA_FUEL_T: 51
+- response: 7E8046205225C
+  expected_values:
+    MAZDA_FUEL_T: 52
+- response: '7E80462052268'
+  expected_values:
+    MAZDA_FUEL_T: 64
+- response: 7E8046205226D
+  expected_values:
+    MAZDA_FUEL_T: 69
