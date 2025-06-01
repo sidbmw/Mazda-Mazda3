@@ -2,19 +2,19 @@ command_id: 7E0.220522
 test_cases:
 - response: 7E8046205224D
   expected_values:
-    MAZDA_FUEL_T: 37
+    MAZDA3_FUEL_T: 37.0
 - response: 7E8046205224E
   expected_values:
-    MAZDA_FUEL_T: 38
+    MAZDA3_FUEL_T: 38.0
 - response: 7E8046205224F
   expected_values:
-    MAZDA_FUEL_T: 39
-- response: '7E80462052250'
+    MAZDA3_FUEL_T: 39.0
+- response: 7E80462052250
   expected_values:
-    MAZDA_FUEL_T: 40
-- response: '7E80462052251'
+    MAZDA3_FUEL_T: 40.0
+- response: 7E80462052251
   expected_values:
-    MAZDA_FUEL_T: 41
-- response: '7E80462052252'
+    MAZDA3_FUEL_T: 41.0
+- response: 7E80462052252
   expected_values:
-    MAZDA_FUEL_T: 42
+    MAZDA3_FUEL_T: 42.0
