@@ -3,4 +3,3 @@ test_cases:
 - response: 728046261B11B
   expected_values:
     MAZDA3_FLV: 27.0
-    MAZDA3_FUEL_LEVEL: 27.0

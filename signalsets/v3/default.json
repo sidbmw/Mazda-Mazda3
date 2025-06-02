@@ -17,8 +17,7 @@
   ]},
 { "hdr": "720", "cmd": {"22": "61B1"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2024 },
   "signals": [
-    {"id": "MAZDA3_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 55,  "unit": "liters" }, "name": "Fuel level"},
-    {"id": "MAZDA3_FLV",        "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level"}
+    {"id": "MAZDA3_FLV", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level"}
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "D922"}, "freq": 1,
   "signals": [

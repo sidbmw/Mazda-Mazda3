@@ -3,16 +3,12 @@ test_cases:
 - response: 728046261B10F
   expected_values:
     MAZDA3_FLV: 15.0
-    MAZDA3_FUEL_LEVEL: 15.0
 - response: 728046261B110
   expected_values:
     MAZDA3_FLV: 16.0
-    MAZDA3_FUEL_LEVEL: 16.0
 - response: 728046261B111
   expected_values:
     MAZDA3_FLV: 17.0
-    MAZDA3_FUEL_LEVEL: 17.0
 - response: 728046261B130
   expected_values:
     MAZDA3_FLV: 48.0
-    MAZDA3_FUEL_LEVEL: 48.0
